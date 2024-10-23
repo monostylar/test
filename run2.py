@@ -45,7 +45,7 @@ while emails:
         driver.get("https://app.netlify.com/login")
         time.sleep(5)
         
-        driver.set_window_size(1200, 1000)
+        driver.maximize_window()  # Open browser in full screen
         time.sleep(3)
         
         driver.find_element(By.CSS_SELECTOR, ".tw-text-left").click()
