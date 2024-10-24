@@ -132,8 +132,8 @@ def fill_in_additional_details(driver, email):
 if __name__ == '__main__':
     generated_emails = []
     
-    # Buat 2 email acak
-    for _ in range(2):
+    # Buat ? email acak
+    for _ in range(5):
         random_name = generate_random_name()
         new_email = f"gfiy2o7+{random_name}@qmaul.com"
         generated_emails.append(new_email)
